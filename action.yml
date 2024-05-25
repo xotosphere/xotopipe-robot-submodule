@@ -1,0 +1,21 @@
+name: '@xotosphere/xotopipe-bot-submodule'
+description: 'Custom app pr action'
+author: 'xotopipe'
+inputs:
+  github_token:
+    description: 'secrets.GITHUB_TOKEN'
+  xotocross_github_access_token:
+    description: 'secrets.GH_PAT'
+  owner:
+    description: 'Repo owner'
+  submodules:
+    description: 'Repo submodules'
+  branch:
+    description: 'Target branch name'
+  workflow:
+    description: 'Target workflow file (like pr-workflow.yml)'
+
+  
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
