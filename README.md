@@ -22,7 +22,7 @@ custom-action:
     - name: Checkout root repo
       uses: actions/checkout@v3
       with:
-        repository: xotosphere/xotopipe-bot-submodule
+        repository: xotosphere/xotopipe-robot-submodule
         token: ${{ secrets.GH_PAT }}
     - name: Sync submodules changelog
       uses: ./

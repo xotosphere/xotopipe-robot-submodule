@@ -1,4 +1,4 @@
-name: '@xotosphere/xotopipe-bot-submodule'
+name: '@xotosphere/xotopipe-robot-submodule'
 description: 'Custom app pr action'
 author: 'xotopipe'
 inputs:
